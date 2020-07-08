@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_signal_components_operations",
+  "info": {
+    "name": "Operation",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "enumeration",
+      "enum": [
+        "Multiply",
+        "Divide",
+        "Add",
+        "Subtract"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grids",
+  "info": {
+    "name": "Grid"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "tiles": {
+      "type": "dynamiczone",
+      "components": [
+        "tile-components.tile",
+        "tile-components.signal-tile",
+        "tile-components.computed-signal-tile"
+      ],
+      "required": false
+    }
+  }
+}

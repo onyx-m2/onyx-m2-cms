@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_signal_components_constants",
+  "info": {
+    "name": "Constant",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

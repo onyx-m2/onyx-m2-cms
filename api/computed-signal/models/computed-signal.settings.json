@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "computed_signals",
+  "info": {
+    "name": "Computed Signal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "units": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "dynamiczone",
+      "components": [
+        "signal-components.constant",
+        "signal-components.operation",
+        "signal-components.signal"
+      ]
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

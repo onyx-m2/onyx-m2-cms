@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_tile_components_tiles",
+  "info": {
+    "name": "Tile",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "integer",
+      "min": 1,
+      "default": 1,
+      "max": 6
+    },
+    "top": {
+      "type": "integer",
+      "min": 1,
+      "default": 1,
+      "max": 8
+    },
+    "width": {
+      "type": "integer",
+      "max": 4,
+      "min": 1,
+      "default": 2
+    },
+    "height": {
+      "type": "integer",
+      "max": 4,
+      "min": 1,
+      "default": 1
+    },
+    "caption": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "floating",
+        "inset"
+      ],
+      "default": "floating"
+    }
+  }
+}

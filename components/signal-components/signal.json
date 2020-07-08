@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_signal_components_signals",
+  "info": {
+    "name": "Signal",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "model": "signal"
+    }
+  }
+}

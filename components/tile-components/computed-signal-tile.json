@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_tile_components_computed_signal_tiles",
+  "info": {
+    "name": "Computed Signal Tile",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "signal": {
+      "model": "computed-signal"
+    },
+    "tile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tile-components.tile",
+      "required": true
+    }
+  }
+}

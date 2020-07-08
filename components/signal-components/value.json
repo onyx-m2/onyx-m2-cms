@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_signal_components_values",
+  "info": {
+    "name": "Value",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

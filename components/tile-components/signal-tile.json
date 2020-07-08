@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_tile_components_signal_tiles",
+  "info": {
+    "name": "Signal Tile",
+    "icon": "broadcast-tower"
+  },
+  "options": {},
+  "attributes": {
+    "signal": {
+      "model": "signal"
+    },
+    "showSignalName": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSignalUnits": {
+      "type": "boolean",
+      "default": true
+    },
+    "tile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tile-components.tile",
+      "required": true
+    }
+  }
+}

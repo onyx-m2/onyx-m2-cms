@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/computed-signals",
+      "handler": "computed-signal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/computed-signals/count",
+      "handler": "computed-signal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/computed-signals/:id",
+      "handler": "computed-signal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/computed-signals",
+      "handler": "computed-signal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/computed-signals/:id",
+      "handler": "computed-signal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/computed-signals/:id",
+      "handler": "computed-signal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

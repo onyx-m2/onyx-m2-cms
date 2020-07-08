@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_signal_components_definitions",
+  "info": {
+    "name": "Mnemonic",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
