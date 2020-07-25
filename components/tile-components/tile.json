@@ -18,18 +18,6 @@
       "default": 1,
       "max": 8
     },
-    "width": {
-      "type": "integer",
-      "max": 4,
-      "min": 1,
-      "default": 2
-    },
-    "height": {
-      "type": "integer",
-      "max": 4,
-      "min": 1,
-      "default": 1
-    },
     "caption": {
       "type": "string"
     },
@@ -40,6 +28,17 @@
         "inset"
       ],
       "default": "floating"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "displayType": {
+      "type": "enumeration",
+      "enum": [
+        "slab",
+        "pill",
+        "hero"
+      ]
     }
   }
 }

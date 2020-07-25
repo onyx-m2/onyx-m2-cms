@@ -23,6 +23,12 @@
         "tile-components.computed-signal-tile"
       ],
       "required": false
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "rows": {
+      "type": "integer"
     }
   }
 }
