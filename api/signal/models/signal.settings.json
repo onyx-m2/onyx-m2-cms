@@ -22,7 +22,8 @@
     },
     "mnemonic": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "values": {
       "type": "component",
